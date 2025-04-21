@@ -12,7 +12,7 @@ const password = 'wVvyDHZIXvZPRPHJ';
 const cluster = 'cluster0'; // Assuming default cluster name, user can update if needed
 const dbname = 'surveydb';
 
-const uri = `mongodb+srv://${username}:${password}@${cluster}.mongodb.net/${dbname}?retryWrites=true&w=majority`;
+const uri = `mongodb+srv://${username}:${password}@${cluster}.1fkdnqx.mongodb.net/${dbname}?retryWrites=true&w=majority`;
 
 mongoose.connect(uri, {
   useNewUrlParser: true,

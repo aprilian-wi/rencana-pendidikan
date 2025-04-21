@@ -7,7 +7,7 @@ const Dashboard = () => {
 
   const fetchRespondents = async () => {
     try {
-      const res = await fetch('/api/respondents');
+      const res = await fetch(`${process.env.REACT_APP_API_URL}/respondents`);
       const data = await res.json();
       setRespondents(data);
     } catch (error) {
@@ -24,7 +24,7 @@ const Dashboard = () => {
       return;
     }
     try {
-      const res = await fetch(`/api/respondents/${id}`, {
+      const res = await fetch(`${process.env.REACT_APP_API_URL}/respondents/${id}`, {
         method: 'DELETE',
       });
       if (res.ok) {
