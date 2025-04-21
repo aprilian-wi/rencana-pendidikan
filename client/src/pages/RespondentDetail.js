@@ -9,7 +9,7 @@ const RespondentDetail = () => {
   useEffect(() => {
     const fetchRespondent = async () => {
       try {
-        const res = await fetch(`${process.env.REACT_APP_API_URL}/respondents/${id}`);
+        const res = await fetch(`${process.env.REACT_APP_API_URL}/api/respondents/${id}`);
         if (res.ok) {
           const data = await res.json();
           setRespondent(data);
