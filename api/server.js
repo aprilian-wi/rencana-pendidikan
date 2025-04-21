@@ -3,8 +3,20 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 
 const app = express();
-app.use(cors());
+
+// Configure CORS
+app.use(cors({
+  origin: ['https://rencana-pendidikan-defg.vercel.app', 'http://localhost:3000'],
+  methods: ['GET', 'POST', 'DELETE'],
+  credentials: true
+}));
+
 app.use(express.json());
+
+// Root route
+app.get('/', (req, res) => {
+  res.json({ message: 'Survey API is running' });
+});
 
 // MongoDB connection
 const username = 'aprilianwi';
