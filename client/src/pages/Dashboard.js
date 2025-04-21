@@ -7,7 +7,7 @@ const Dashboard = () => {
 
   const fetchRespondents = async () => {
     try {
-      const res = await fetch(`${process.env.REACT_APP_API_URL}/api/respondents`);
+      const res = await fetch(`https://rencana-pendidikan-api.vercel.app/api/respondents`);
       const data = await res.json();
       setRespondents(data);
     } catch (error) {
@@ -24,7 +24,7 @@ const Dashboard = () => {
       return;
     }
     try {
-      const res = await fetch(`${process.env.REACT_APP_API_URL}/api/respondents/${id}`, {
+      const res = await fetch(`https://rencana-pendidikan-api.vercel.app/api/respondents/${id}`, {
         method: 'DELETE',
       });
       if (res.ok) {
