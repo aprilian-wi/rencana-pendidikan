@@ -191,13 +191,13 @@ const SurveyForm = () => {
         <div className="bg-white rounded-xl shadow-lg overflow-hidden">
           <div className="bg-blue-600 text-white px-6 py-8 text-center">
             <h1 className="text-3xl md:text-4xl font-bold mb-2">Survey Perencanaan Pendidikan Anak</h1>
-            <p className="text-blue-100">Bantu kami memahami kebutuhan pendidikan anak Anda</p>
+            <p className="text-blue-100">بِسْمِ اللهِ، السَّلامُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ</p>
           </div>
 
           <div className="p-6 md:p-8">
             <div className="bg-blue-50 border-l-4 border-blue-500 p-4 mb-8 rounded-r">
               <p className="text-blue-700">
-                Mohon lengkapi survey ini untuk membantu kami memberikan solusi terbaik untuk masa depan pendidikan anak Anda.
+                Ayah & Bunda bisa isi survey ini ya, bantu kami berikan solusi terbaik untuk masa depan pendidikan Ayah & Bunda. Barakallahu Fiikum.
               </p>
             </div>
 
