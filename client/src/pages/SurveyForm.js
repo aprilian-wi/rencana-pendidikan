@@ -197,7 +197,7 @@ const SurveyForm = () => {
           <div className="p-6 md:p-8">
             <div className="bg-blue-50 border-l-4 border-blue-500 p-4 mb-8 rounded-r">
               <p className="text-blue-700">
-                Ayah & Bunda bisa isi survey ini ya, bantu kami berikan solusi terbaik untuk masa depan pendidikan Ayah & Bunda. Barakallahu Fiikum.
+              Yuk Ayah & Bunda, isi survei singkat ini. InsyaAllah jadi awal ikhtiar terbaik untuk pendidikan ananda.
               </p>
             </div>
 
