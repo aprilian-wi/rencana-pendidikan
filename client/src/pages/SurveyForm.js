@@ -7,7 +7,115 @@ const questions = [
     options: ['Pendidikan', 'Karier', 'Biaya', 'Kebahagiaan', 'Ketenangan hati'],
     multiple: false,
   },
-  // ... rest of the questions array remains the same
+  {
+    number: 2,
+    text: 'Ayah Bunda sudah pernah membayangkan anak nanti akan kuliah di mana atau jadi apa?',
+    options: [
+      'Sudah, cukup jelas',
+      'Sering terbayang, tapi belum spesifik',
+      'Belum kepikiran sama sekali'
+    ],
+    multiple: false,
+  },
+  {
+    number: 3,
+    text: 'Menurut Ayah Bunda, bagaimana kondisi biaya pendidikan 10 tahun ke depan?',
+    options: [
+      'Jauh lebih mahal',
+      'Sedikit lebih mahal',
+      'Kurang lebih sama',
+      'Tidak tahu'
+    ],
+    multiple: false,
+  },
+  {
+    number: 4,
+    text: 'Saat ini, bagaimana kondisi perencanaan dana pendidikan anak di keluarga Ayah Bunda?',
+    options: [
+      'Sudah ada dan rutin dijalankan',
+      'Sudah ada, tapi belum konsisten',
+      'Ada niat, tapi belum mulai',
+      'Belum ada sama sekali'
+    ],
+    multiple: false,
+  },
+  {
+    number: 5,
+    text: 'Apa kekhawatiran terbesar Ayah Bunda soal masa depan pendidikan anak? (Boleh pilih lebih dari satu)',
+    options: [
+      'Biaya yang makin naik',
+      'Tidak tahu harus mulai dari mana',
+      'Takut tiba-tiba tidak siap',
+      'Belum sempat diskusi dengan pasangan',
+      'Tidak ada kekhawatiran'
+    ],
+    multiple: true,
+  },
+  {
+    number: 6,
+    text: 'Menurut Ayah Bunda, langkah terbaik untuk menyiapkan masa depan pendidikan anak adalah...',
+    options: [
+      'Menabung sejak dini',
+      'Mencari produk keuangan yang sesuai',
+      'Meningkatkan penghasilan',
+      'Mendapat edukasi soal strategi perencanaan',
+      'Belum tahu'
+    ],
+    multiple: false,
+  },
+  {
+    number: 7,
+    text: 'Setiap bulan, kira-kira Ayah Bunda bisa menyisihkan dana berapa untuk rencana pendidikan anak?',
+    options: [
+      'Di bawah Rp 100.000',
+      'Rp 100.000 – Rp 250.000',
+      'Rp 250.000 – Rp 500.000',
+      'Di atas Rp 500.000',
+      'Belum tahu / belum bisa menyisihkan'
+    ],
+    multiple: false,
+  },
+  {
+    number: 8,
+    text: 'Jika ada solusi syariah yang bisa bantu Ayah Bunda menyiapkan biaya pendidikan anak secara bertahap dan aman, apakah tertarik untuk tahu lebih lanjut?',
+    options: [
+      'Iya, sangat tertarik',
+      'Tertarik, tapi ingin pelajari dulu',
+      'Tidak tertarik dulu'
+    ],
+    multiple: false,
+  },
+  {
+    number: 9,
+    text: 'Menurut Ayah Bunda, berapa lama idealnya dana pendidikan anak perlu disiapkan sejak sekarang?',
+    options: [
+      'Mulai sekarang, selagi anak masih SD',
+      'Nanti saja saat anak masuk SMP/SMA',
+      'Tidak yakin / Belum tau'
+    ],
+    multiple: false,
+  },
+  {
+    number: 10,
+    text: 'Apakah Ayah Bunda pernah tahu atau pernah punya asuransi pendidikan sebelumnya?',
+    options: [
+      'Pernah punya, sekarang masih aktif',
+      'Pernah punya, tapi sudah tidak lanjut',
+      'Belum pernah sama sekali',
+      'Tahu tentang asuransi pendidikan, tapi belum minat'
+    ],
+    multiple: false,
+  },
+  {
+    number: 11,
+    text: 'Jika setelah ini ada materi tambahan atau penjelasan langsung dari saya seputar solusi persiapan pendidikan anak secara syariah, Ayah Bunda lebih nyaman:',
+    options: [
+      'Diskusi santai dulu via chat',
+      'Langsung ketemu dan konsultasi',
+      'Tidak perlu, terima kasih'
+    ],
+    multiple: false,
+  }
 ];
 
 const SurveyForm = () => {
